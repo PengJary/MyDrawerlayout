@@ -4,8 +4,10 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="text_exchange_record">记录</string>
-    <string name="text_pocket">钱包</string>
-    <string name="text_setting">设置</string>
-    <string name="text_about_us">关于</string>
+    <string name="text_exchange_record">record</string>
+    <string name="text_pocket">wallet</string>
+    <string name="text_setting">setting</string>
+    <string name="text_about_us">about</string>
+    <string name="content">content</string>
+    <string name="gradeone">Touch-Side-Drawer</string>
 </resources>

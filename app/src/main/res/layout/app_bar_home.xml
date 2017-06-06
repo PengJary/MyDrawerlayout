@@ -18,7 +18,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            app:title="Gradeone" />
+            app:title="@string/gradeone" />
 
     </android.support.design.widget.AppBarLayout>
 

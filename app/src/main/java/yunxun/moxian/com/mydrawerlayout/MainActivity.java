@@ -57,16 +57,16 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.nav_camera:
-                        Toast.makeText(MainActivity.this,"记录",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this,getResources().getString(R.string.text_exchange_record),Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.nav_gallery:
-                        Toast.makeText(MainActivity.this,"钱包",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this,getResources().getString(R.string.text_pocket),Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.nav_slideshow:
-                        Toast.makeText(MainActivity.this,"设置",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this,getResources().getString(R.string.text_setting),Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.nav_manage:
-                        Toast.makeText(MainActivity.this,"关于",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this,getResources().getString(R.string.text_about_us),Toast.LENGTH_SHORT).show();
                         break;
                 }
                 item.setChecked(true);
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 loading_rl.setVisibility(View.GONE);
                 TextView text = new TextView(getBaseContext());
-                text.setText("content");
+                text.setText(getResources().getString(R.string.content));
                 text.setTextSize(26);
                 text.setTextColor(Color.BLUE);
                 text.setGravity(Gravity.CENTER);
